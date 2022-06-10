@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+.sub_body{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+.container1{
+	width: 1250.330px;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.container1_menu{
+	float: left;
+	background: ;
+	width: 15%;
+}
+.container1_menu_top{
+	width: 189.490px;
+	height: 100px;
+	background: #043763;
+	font-family: '¸¼Àº °íµñ', 'Malgun Gothic', 'NotoSans', 'µ¸¿ò', 'Dotum', '±¼¸²', 'Gulim', AppleGothic, UnDotum, Arial, Tahoma, Verdana, sans-serif;
+	display: table-cell;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu_bottom > li{
+   padding: 0.5rem 1rem;
+   font-weight: 600;
+   font-size: 1rem;
+   color: #222;
+   background: #fff;
+   border: 1px solid #bababa;
+}
+
+.container1_content{
+	float: left;
+	height: auto;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
+
+.container1_title{
+	width: 100%;
+	height: 99.99px;
+	
+	border-bottom: 1px solid #b1b8c2;
+	padding-top: 1.9rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.container1_contents{
+	width: 100%;
+	height: 80%;
+}
